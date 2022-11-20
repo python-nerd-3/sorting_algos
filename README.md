@@ -35,6 +35,8 @@
 
 -   **[Heap Sort]**
 
+-   **[Bogo Sort] a.k.a. Monkey Sort**
+
 <br>
 
 
@@ -49,6 +51,7 @@
 [Gnome Sort]: https://en.wikipedia.org/wiki/Gnome_sort
 [Quick Sort]: https://en.wikipedia.org/wiki/Quicksort
 [Heap Sort]: https://en.wikipedia.org/wiki/Heapsort
+[Bogo Sort]: https://en.wikipedia.org/wiki/Bogosort
 
 
 <!---------------------------------[ Buttons ]--------------------------------->
