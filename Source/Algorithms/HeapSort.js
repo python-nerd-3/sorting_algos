@@ -7,7 +7,7 @@ const { floor } = Math;
 export default function * ( size , items ){
     
     for ( let i = 0 ; i < size ; i++ )
-        yield * heap_up(size,items,i);
+        yield * heap_up(items,i);
     
     for ( let i = 0 ; i < size - 1 ; i++){
         
@@ -23,7 +23,7 @@ export default function * ( size , items ){
 }
 
 
-function * heap_up ( size , items , i ){
+function * heap_up ( items , i ){
     
     let root = floor((i - 1) / 2);
     

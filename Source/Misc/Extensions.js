@@ -3,29 +3,29 @@
 const Element = HTMLElement.prototype;
 
 
-Element.visible = function ( state ){
-    this.classList[ state ? 'add' : 'remove' ]('d-none');
+Element.visible = function (state) {
+    this.classList[state ? 'add' : 'remove']('d-none');
 }
 
-Element.show = function (){
+Element.show = function () {
     this.classList.remove('d-none');
 }
 
-Element.hide = function (){
+Element.hide = function () {
     this.classList.add('d-none');
 }
 
 
-Element.enable = function (){
+Element.enable = function () {
     this.disabled = false;
 }
 
-Element.disable = function (){
+Element.disable = function () {
     this.disabled = true;
 }
 
 
-Element.swapTextWith = function ( other ){
-    [ this.innerText , other.innerText ] =
-        [ other.innerText , this.innerText ];
+Element.swapTextWith = function (other) {
+    [this.innerText, other.innerText] =
+        [other.innerText, this.innerText];
 }
