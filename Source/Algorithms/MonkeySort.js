@@ -7,6 +7,7 @@ export default function* (size, items) {
         yield* shuffle(size, items)
     }
     for (let i = 0; i < size; i++)
+        yield [Alpha, i]
         yield [Sorted, i]
 }
 
