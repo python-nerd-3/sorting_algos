@@ -25,6 +25,8 @@
 
 -   **[Selection Sort]**
 
+-   **[Counting Sort]**
+
 -   **[Cocktail Sort]**
 
 -   **[Bubble Sort]**
@@ -46,6 +48,7 @@
 
 [Insertion Sort]: https://en.wikipedia.org/wiki/Insertion_sort
 [Selection Sort]: https://en.wikipedia.org/wiki/Selection_sort
+[Counting Sort]: https://en.wikipedia.org/wiki/Counting_sort
 [Cocktail Sort]: https://en.wikipedia.org/wiki/Cocktail_shaker_sort
 [Bubble Sort]: https://en.wikipedia.org/wiki/Bubble_sort
 [Gnome Sort]: https://en.wikipedia.org/wiki/Gnome_sort
